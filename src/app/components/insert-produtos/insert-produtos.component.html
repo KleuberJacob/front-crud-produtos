@@ -1,0 +1,16 @@
+<div class="container">    
+    <div class="containerSalvarEditar">
+        <div class="" style="background-color: rgba(204, 197, 197, 0.233); width: 100%;">
+            <app-cadastro-produtos (produtoSalvo)="onProdutoSalvo()"></app-cadastro-produtos>
+        </div>
+        <div class="" style="background-color: rgba(204, 197, 197, 0.233); width: 100%;">
+            <app-editar-produto [edicaoProduto] = "produto" (produtoSalvoEdit)="onProdutoSalvoEdit()"></app-editar-produto>
+        </div> 
+    </div>     
+    <div class="">
+        <div class="containerProdutosCadastrados">
+            <app-produtos-cadastrados (edicaoProduto)="onEdicaoProduto($event)" [produtoSalvo] = "renderizacao" (render)="onReRender()"></app-produtos-cadastrados>
+        </div>
+    </div>
+</div>
+

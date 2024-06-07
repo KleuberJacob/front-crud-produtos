@@ -1,0 +1,20 @@
+<div class="texto">
+    <span>Cadastrar Produto</span>
+</div>
+<div class="containerInputs">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Nome</mat-label>
+          <input type="text" name="nome" matInput placeholder="Nome" [(ngModel)]="produto.nome">
+        </mat-form-field>
+      
+        <mat-form-field class="example-full-width">
+            <mat-label>Valor em R$</mat-label>
+            <input type="number" name="preco" matInput placeholder="Valor em R$" [(ngModel)]="produto.preco">
+        </mat-form-field>
+
+        <div class="alignButton">
+          <button mat-flat-button color="primary" (click)="salvar()">Salvar</button>
+        </div>
+    </form>
+</div>

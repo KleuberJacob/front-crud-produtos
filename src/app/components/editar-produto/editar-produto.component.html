@@ -1,0 +1,25 @@
+<div class="texto">
+    <span>Editar Produto</span>
+</div>
+<div class="containerInputs">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Registro</mat-label>
+            <input type="text" matInput placeholder="Registro" [(ngModel)]="edicaoProduto.registro" name="registro" disabled>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Nome</mat-label>
+          <input type="text" matInput placeholder="Nome" [(ngModel)]="edicaoProduto.nome" name="nome">
+        </mat-form-field>
+      
+        <mat-form-field class="example-full-width">
+            <mat-label>Valor em R$</mat-label>
+            <input type="number" matInput placeholder="Valor em R$" [(ngModel)]="edicaoProduto.preco" name="preco">
+        </mat-form-field>
+
+        <div class="alignButton">            
+            <button mat-flat-button color="primary" (click)="salvarEdicao()">Salvar</button>
+        </div>
+    </form>
+</div>
