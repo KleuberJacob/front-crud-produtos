@@ -8,8 +8,6 @@
 
 ## Imagens
 ![tela principal CRUD produtos 1](https://github.com/KleuberJacob/front-crud-produtos/assets/55764961/6c261e40-a0be-4c8e-acbb-76bd88550650)
-![tela principal CRUD produtos 2](https://github.com/KleuberJacob/front-crud-produtos/assets/55764961/146cf5c6-39d8-4df5-ba20-f0920e9a136a)
-![tela principal CRUD produtos 3](https://github.com/KleuberJacob/front-crud-produtos/assets/55764961/37c6184a-b110-4082-b04d-77fe5ebf6284)
 
 ## Características
 > Sistema de gerenciamento de produtos SPA, onde usuário pode visualizar todos os produtos, cadastrar, editar, excluir. 
